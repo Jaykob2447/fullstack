@@ -18,6 +18,15 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.phones_list li {
+  display: flex;
+  flex-direction: row;
+}
+
+.phones_list li p {
+  padding: 0 7px;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
