@@ -18,9 +18,18 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-.phones_list li {
+.phones_list {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.phones_list li {
+  display: flex;
+  flex-direction: column;
+  min-width: 250px;
+  margin: 0.5em;
+  border: gray solid 1px;
 }
 
 .phones_list li p {
