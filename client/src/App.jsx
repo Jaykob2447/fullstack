@@ -96,8 +96,10 @@ function App({
               <ErrorMessage name="screen_diagonal" component="span" />
             </div>
           </label>
+          <div className="formPhoneButton">
           <button type="submit">Enter</button>
           <button type="reset">Reset</button>
+          </div>
         </Form>
       </Formik>
       <BeatLoader loading={isFetching} />
