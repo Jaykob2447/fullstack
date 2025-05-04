@@ -32,7 +32,7 @@ function App({
   return (
     <>
       <Formik initialValues={initVal} onSubmit={heandelSubmit}>
-        <Form>
+        <Form className="formPhone">
           <label>
             <span>Model</span>
             <div>

@@ -59,6 +59,10 @@
   color: #888;
 }
 
+.formPhone input{
+  min-width: 170px;
+}
+
 .formPhoneButton button{
   margin: 1em 0.5em;
 }
